@@ -23,7 +23,7 @@ YOUTUBE_LIVE_URL = "https://www.youtube.com/watch?v=4NBT677Thkg"
 BLOCK_DURATION = 300  
 
 # Carpeta donde se guardarán los videos
-OUTPUT_FOLDER = "youtube_live_recordings_5min_madoka2"
+OUTPUT_FOLDER = "youtube_live_recordings_5min_madoka"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 def check_video_availability(url):
